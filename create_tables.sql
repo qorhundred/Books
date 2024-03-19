@@ -45,4 +45,3 @@ CREATE TABLE Purchases (
     FOREIGN KEY (user_id) REFERENCES Users(user_id),
     FOREIGN KEY (book_id) REFERENCES Books(book_id)
 );
-
